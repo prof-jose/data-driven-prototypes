@@ -106,7 +106,7 @@ def get_sidebar_and_data():
     """Get the sidebar and load data based on the user's input."""
     year = st.sidebar.selectbox(
         "Year to display:",
-        [2018, 2019, 2020, 2021, 2022, 2023]
+        [2019, 2020, 2021, 2022, 2023]
         )
 
     department = st.sidebar.selectbox(

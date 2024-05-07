@@ -10,7 +10,7 @@ import streamlit as st
 st.title("Real estate prices in France")
 
 # ADDITION: Now we can select the year through a selectbox
-year = st.selectbox("Year to display:", [2018, 2019, 2020, 2021, 2022, 2023])
+year = st.selectbox("Year to display:", [2019, 2020, 2021, 2022, 2023])
 
 # ADDITION: So now the file name depends on the year
 FILE = (

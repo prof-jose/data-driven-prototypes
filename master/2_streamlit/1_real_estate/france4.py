@@ -11,7 +11,7 @@ st.title("Real estate prices in France")
 # ADDITION: Let's move year selection to a sidebar
 year = st.sidebar.selectbox(
     "Year to display:",
-    [2018, 2019, 2020, 2021, 2022, 2023]
+    [2019, 2020, 2021, 2022, 2023]
 )
 
 # ADDITION: Since we have a sidebar, why not add the department selection?

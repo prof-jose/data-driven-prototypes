@@ -9,7 +9,7 @@ import streamlit as st
 
 st.title("Real estate prices in France")
 
-year = st.selectbox("Year to display:", [2018, 2019, 2020, 2021, 2022, 2023])
+year = st.selectbox("Year to display:", [2019, 2020, 2021, 2022, 2023])
 
 FILE = (
     f"https://files.data.gouv.fr/geo-dvf/latest/csv/{year}/"
