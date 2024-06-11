@@ -1,6 +1,13 @@
-pandas
 streamlit
+pandas
 pydeck
-geopy
-dash
-dash-bootstrap-components
+scikit-learn
+seaborn
+matplotlib
+cohere
+faiss-cpu
+opencv-python
+torch
+torchvision
+st-annotated-text
+watchdog
