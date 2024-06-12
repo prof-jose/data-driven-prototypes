@@ -6,7 +6,6 @@ seaborn
 matplotlib
 cohere
 faiss-cpu
-opencv-python
 torch
 torchvision
 st-annotated-text
